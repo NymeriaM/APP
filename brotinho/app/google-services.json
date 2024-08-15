@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1093003699708",
+    "project_id": "brotinho-8889f",
+    "storage_bucket": "brotinho-8889f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093003699708:android:020c1668f1d92715dafe79",
+        "android_client_info": {
+          "package_name": "java.br.edu.ifsp.arq.dmos5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkRZH5uL1nqaw_0mcATtCCUZs5MAFzU6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

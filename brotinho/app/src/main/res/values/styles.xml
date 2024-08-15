@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema padrão do aplicativo -->
+    <style name="Theme.Brotinho" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Personalize o tema aqui -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/dark_red</item>
+        <item name="colorSecondaryVariant">@color/dark_red</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- Tema para a ActionBar -->
+    <style name="Theme.Brotinho.NoActionBar" parent="Theme.Brotinho">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/dark_red</item>
+        <item name="colorSecondaryVariant">@color/dark_red</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+    <style name="Theme.Brotinho.AppBarOverlay" parent="Theme.Brotinho">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/dark_red</item>
+        <item name="colorSecondaryVariant">@color/dark_red</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+    <style name="Theme.Brotinho.PopupOverlay" parent="Theme.Brotinho">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/dark_red</item>
+        <item name="colorSecondaryVariant">@color/dark_red</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+
+</resources>

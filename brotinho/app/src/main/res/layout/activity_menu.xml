@@ -1,0 +1,66 @@
+<!-- res/layout/activity_sidebar.xml -->
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Main content -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Navigation Drawer -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/nav_header_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/default_avatar"
+                android:scaleType="centerCrop"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/nav_header_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome do Usuário"
+                android:textColor="@color/dark_red"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_account"
+                android:title="Minha Conta"/>
+            <item
+                android:id="@+id/nav_favorites"
+                android:icon="@drawable/ic_favorites"
+                android:title="Lista de Receitas Favoritas"/>
+            <item
+                android:id="@+id/nav_edit_profile"
+                android:icon="@drawable/ic_edit_profile"
+                android:title="Editar Perfil"/>
+        </menu>
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

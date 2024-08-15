@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">teste</string>
+    <string name="title_activity_side_bar">SideBar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+
+
+    <!-- menu -->
+    <string name="enter">Entrar</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_account">Minha Conta</string>
+    <string name="menu_new_activity">Nova Atividade</string>
+    <string name="menu_list">Lista de Receitas</string>
+    <string name="menu_statistics">Estatísticas</string>
+    <string name="menu_ranking">Classificação</string>
+    <string name="menu_logout">Sair</string>
+    <string name="toggle_open">Abrir</string>
+    <string name="toggle_close">Fechar</string>
+
+    <string name="recipes">Receitas</string>
+    <string name="recipe_name_text_view">Nome</string>
+
+    <!-- LoginActivity -->
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Senha</string>
+    <string name="btn_enter">Entrar</string>
+    <string name="txt_forgot_password">Esqueceu sua senha?</string>
+    <string name="txt_no_account">Não tem cadastro?</string>
+    <string name="btn_user_register">Cadastre-se aqui</string>
+    <string name="login">Login</string>
+
+    <!-- UserRegisterActivity -->
+    <string name="hint_name">Nome</string>
+    <string name="btn_register">Cadastrar</string>
+    <string name="new_user">Novo Usuário</string>
+
+
+    <!-- UserProfileActivity -->
+    <string name="hint_surname">Sobrenome</string>
+    <string name="hint_date_of_birth">Data de Nascimento</string>
+    <string name="btn_profile_update">Atualizar</string>
+    <string name="txt_gender">Gênero</string>
+    <string name="user_profile">Minha Conta</string>
+    <string name="login_message">Email e/ou senha invalidos\n</string>
+    <string name="splash_image_desc">brotinho</string>
+    <array name="gender">
+        <item>Masculino</item>
+        <item>Feminino</item>
+        <item>Outro</item>
+        <item>Prefiro não dizer</item>
+    </array>
+</resources>
