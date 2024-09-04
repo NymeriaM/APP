@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Brotinho</string>
+
+    <!-- MainActivity -->
+    <string name="main_activity">Principal Atividade</string>
+    <string name="activity">ATIVIDADE</string>
+    <string name="level">Nível 0</string>
+    <string name="points">0 pontos</string>
+    <string name="latest_activities">Últimas Atividades</string>
+
+    <!-- ActivityRegisterActivity -->
+    <array name="activity_type">
+        <item>Caminhada</item>
+        <item>Ciclismo</item>
+        <item>Corrida</item>
+        <item>Natação</item>
+    </array>
+    <string name="txt_activity_type">Escolha o tipo de atividade</string>
+    <string name="hint_date">Data</string>
+    <string name="hint_duration">Duração (min)</string>
+    <string name="hint_distance">Distância (Km)</string>
+    <string name="btn_add">Salvar</string>
+    <string name="new_activity">Nova Atividade</string>
+
+    <!-- menu -->
+    <string name="enter">Entrar</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_account">Minha Conta</string>
+    <string name="menu_my_list">Meus favoritos</string>
+    <string name="menu_logout">Sair</string>
+    <string name="toggle_open">Abrir</string>
+    <string name="toggle_close">Fechar</string>
+
+    <!-- LoginActivity -->
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Senha</string>
+    <string name="btn_enter">Entrar</string>
+    <string name="txt_forgot_password">Esqueceu sua senha?</string>
+    <string name="txt_no_account">Não tem cadastro?</string>
+    <string name="btn_user_register">Cadastre-se aqui</string>
+    <string name="login">Login</string>
+
+    <!-- UserRegisterActivity -->
+    <string name="hint_name">Nome</string>
+    <string name="btn_register">Cadastrar</string>
+    <string name="new_user">Novo Usuário</string>
+
+    <!-- UserProfileActivity -->
+    <string name="hint_surname">Sobrenome</string>
+    <string name="hint_date_of_birth">Data de Nascimento</string>
+    <string name="btn_profile_update">Atualizar</string>
+    <string name="txt_gender">Gênero</string>
+    <string name="user_profile">Minha Conta</string>
+    <string name="login_message">E-mail e/ou senha inválidos.</string>
+    <string name="update_message">Dados atualizados com sucesso.</string>
+    <string name="edit_activity">Edição de Atividade</string>
+    <string name="menu_my_activities">Minhas atividades</string>
+    <array name="gender">
+        <item>Masculino</item>
+        <item>Feminino</item>
+        <item>Outro</item>
+        <item>Prefiro não dizer</item>
+    </array>
+</resources>
